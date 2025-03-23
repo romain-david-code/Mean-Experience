@@ -1,0 +1,31 @@
+mat-card {
+    gap: 24px;
+}
+
+mat-card-content {
+    display: grid;
+    gap: 16px;
+}
+
+div {
+    display: grid;
+    gap: 4px 16px;
+    grid-template-columns: 48px min-content;
+    grid-template-rows: reapeat(22px, 2);
+
+    &>img {
+        border-radius: 24px;
+        grid-row: 1/3;
+        height: 48px;
+    }
+
+    &>span {
+        text-wrap: nowrap;
+    }
+}
+
+a {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+}

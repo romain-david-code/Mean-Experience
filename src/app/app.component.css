@@ -1,0 +1,22 @@
+:host {
+    display: grid;
+    grid-template-rows: 64px 1fr;
+    inset: 0;
+    overflow: hidden;
+    position: fixed;
+}
+
+mat-drawer {
+    box-sizing: border-box;
+    padding: 24px 16px;
+    width: fit-content;
+}
+
+mat-drawer-content {
+    box-sizing: border-box;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 1fr min-content;
+    overflow: hidden;
+    padding: 24px;
+}

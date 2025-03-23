@@ -1,0 +1,15 @@
+:host {
+    display: grid;
+
+    &>button {
+        justify-content: start;
+    }
+
+    &>span {
+        margin-bottom: 8px;
+
+        &:not(:first-child) {
+            margin-top: 16px;
+        }
+    }
+}

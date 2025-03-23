@@ -1,0 +1,48 @@
+[
+    {
+        "children": [
+            {
+                "icon": "house",
+                "label": "Accueil",
+                "path": "/"
+            },
+            {
+                "icon": "layers",
+                "label": "MEAN stack",
+                "path": "/stack"
+            },
+            {
+                "icon": "download",
+                "label": "Installation",
+                "path": "/install"
+            },
+            {
+                "icon": "handshake",
+                "label": "Bonnes pratiques",
+                "path": "/typescript"
+            },
+            {
+                "icon": "ellipsis",
+                "label": "A propos",
+                "path": "/about"
+            }
+        ],
+        "title": "Technologies"
+    },
+    {
+        "children": [],
+        "title": "Angular"
+    },
+    {
+        "children": [],
+        "title": "ExpressJS"
+    },
+    {
+        "children": [],
+        "title": "Mongodb"
+    },
+    {
+        "children": [],
+        "title": "NodeJS"
+    }
+]

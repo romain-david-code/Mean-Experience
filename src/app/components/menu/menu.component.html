@@ -1,0 +1,9 @@
+@for (group of groups; track group) {
+    <span>{{ group.title }}</span>
+    @for (menu of group.children; track menu) {
+        <button mat-button [matTooltip]="'Aller à ' + menu.label" [routerLink]="menu.path">
+            <mat-icon [svgIcon]="menu.icon" />
+            <span>{{ menu.label }}</span>
+        </button>
+    }
+}
